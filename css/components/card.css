@@ -1,0 +1,90 @@
+.cards{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.card{
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	box-shadow: 0px 10px  30px rgba(0,0,0,0.2);
+	border-radius: 4px;
+	margin: 10px;
+	flex-basis: 250px;
+	flex-grow: 1;
+	background-color: white;
+}
+.card img{
+	border-radius: 4px;
+	width: 150px;
+	margin: 10px;
+}
+.card a{
+	font-size: 18px;
+    padding-left: 20px;
+    margin: 0 auto;
+}
+
+.card-profile{
+	display: flex;
+	flex-wrap: wrap;
+}
+.card-profile{
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	box-shadow: 0px 10px  30px rgba(0,0,0,0.2);
+	border-radius: 4px;
+	margin: 10px;
+	flex-basis: 250px;
+	flex-grow: 1;
+}
+.card-profile li{
+    list-style: none;
+    font-weight: bold;
+    color: #043d54;
+    font-family: 'Roboto', sans-serif;
+    margin: 10px;
+}
+.card-profile img{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+.card-internships{
+	padding: 10px;
+	display: grid;
+	align-items: stretch;
+	justify-content: space-between;
+	box-shadow: 0px 10px  30px rgba(0,0,0,0.2);
+	border-radius: 4px;
+	margin: 30px;
+	flex-basis: 250px;
+	flex-grow: 1;
+	background-color: white;
+}
+.card-internships img{
+	border-radius: 4px;
+	width: 150px;
+	margin: 10px;
+}
+.card-internships a{
+	font-size: 18px;
+    padding-left: 20px;
+    margin: 0 auto;
+}
+.card-internships li{
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    color: #043d54;
+    margin: 10px;
+    margin-left: -15px;
+}
+.card-internships h2{
+	color: #043d54;
+	font-size: 20px;
+	margin: 25px
+}
